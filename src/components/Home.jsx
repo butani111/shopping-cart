@@ -26,7 +26,7 @@ const Home = () => {
   const addToCartHandler = (options) => {
     toast.success("Added to Cart");
   };
-
+  
   return (
     <div className="home">
       {productList.map((i) => (
